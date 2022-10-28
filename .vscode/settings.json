@@ -1,0 +1,12 @@
+{"cucumberautocomplete.steps": [
+    "cypress/integration/*/*.js"
+  ],
+  "cucumberautocomplete.syncfeatures": "cypress/integration/*/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": false,
+  "diffEditor.codeLens": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}

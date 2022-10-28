@@ -1,0 +1,32 @@
+{
+  "name": "automationtask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulmaged42/automationTask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulmaged42/automationTask/issues"
+  },
+  "homepage": "https://github.com/Abdulmaged42/automationTask#readme",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-postgres": "^1.1.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
