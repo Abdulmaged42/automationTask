@@ -26,7 +26,7 @@ Given(/^select day to be "([^"]*)"$/, (day) => {
         cy.get(':nth-child(1) > .um-tenDateSelector--btn')
     }
     else {
-        cy.xpath(`(//span[contains(text(),'${day}')])[1]/..`).click();
+        cy.xpath(`(//span[contains(text(),'${day}')])[1]/..`).click({ force: true });
 
     }
 

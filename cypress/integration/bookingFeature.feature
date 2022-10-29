@@ -17,12 +17,12 @@ Feature: Feature name
       | um-field--phone-number | phone       |
     And agree to UMAI's Terms of Use & Privacy Policy
     And click on "Confirm Reservation Details"
-  # Then the title of the page should be "the reservation created successfully"
-  Examples:
-      | date |  | location |
-      | today | Indoors |
-      | 10 | Sky Bar |
-      | 09 | Sky Bar |
+    # Then the title of the page should be "the reservation created successfully"
+    Examples:
+      | date  | location |
+      | today | Indoors  |
+      | 10    | Sky Bar  |
+      | 09    | Sky Bar  |
 
   Scenario: verify error messages
     Given select day to be "today"
