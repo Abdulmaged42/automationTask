@@ -27,6 +27,7 @@
     "cypress-xpath": "^1.6.2"
   },
   "dependencies": {
-    "faker": "^5.5.3"
+    "faker": "^5.5.3",
+    "moment": "^2.29.4"
   }
 }
